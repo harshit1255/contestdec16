@@ -57,6 +57,8 @@ function checkAgeAbove25() {
   let arr = data.filter(elem => { return elem.age > 25 });
   if (arr.length > 0)
     console.log(`age above 25 is present`);
+  else
+    console.log('age above 25 is not present')
   // console.log(arr);
 }
 
